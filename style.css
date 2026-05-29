@@ -1,0 +1,167 @@
+body {
+  background-image: url("../fundo.png");
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+}
+
+
+
+.contatos {
+  margin: 200px 200px 0 200px ;
+  border: solid 2px white;
+  border-radius:20px;
+  height: 1070px;
+  background: white;
+  box-shadow: 0 0 60px 18px gray;
+}
+
+
+
+.imagem {
+  border-radius: 100px;
+  box-shadow: 0 0 17px 2px black;
+  margin: 110px 20px 50px 200px;
+    opacity: 0;
+  transform: transLateY(100px);
+  animation:aparecer 3.4s forwards;
+}
+
+
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+  margin: 0;
+  opacity: 0;
+  transform: transLateY(50px);
+  animation:aparecer 7s forwards
+}
+
+
+
+h4 {
+  font-size: 28px;
+  color: burlywood;
+  text-align: center;
+  margin: 17px;
+  opacity: 0;
+  transform: transLateY(20px);
+  animation:aparecer 6s forwards
+}
+
+
+
+h5 {
+  text-align: center;
+  font-size: 24px;
+  opacity: 0;
+  transform: transLateY(37px);
+  animation:aparecer 8s forwards
+}
+
+
+
+p {
+  text-align: center;
+  font-size: 27px;
+  color: dimgray;
+  opacity: 0;
+  transform: transLateY(40px);
+  animation:aparecer 7s forwards
+}
+
+
+
+a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  flex-direction: column;
+  margin: 30px 87px 0px 87px;
+  border: solid 1px white;
+  box-shadow: 0 0 17px 3px gray;
+  padding: 16px;
+  border-radius: 20px;
+  
+}
+
+
+
+.icone {
+  position: absolute;
+  top:806px;
+  border: 2px
+}
+
+
+
+.icone-github {
+  position: absolute;
+  border: 2px;
+  top:898px
+  
+}
+
+
+
+.icone-gmail {
+  position: absolute;
+  top:990px
+  
+}
+
+
+
+.icone-likedin {
+  position: absolute;
+  top:1082px
+  
+  
+}
+
+
+.seta {
+  position: absolute;
+  right:330px;
+  top: 810px
+}
+
+
+.seta-github {
+  position: absolute;
+  right:330px;
+  top:904px;
+}
+
+
+
+.seta-email {
+  position: absolute;
+  right: 330px;
+  top:995px
+}
+
+
+
+.seta-likedin {
+  position: absolute;
+  right:330px;
+  top:1086px
+}
+
+
+
+@keyframes aparecer{
+
+to{
+    opacity: 1;
+    transform: transLateY(0)
+    
+  }
+  
+}
