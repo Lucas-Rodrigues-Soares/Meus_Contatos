@@ -1,5 +1,13 @@
-# Meus_Contatos
-Um site de  contato e login (teste).
+# Página de Cadastro e Contatos
+
+Um mini-sistema web focado no gerenciamento de contatos.
+
+• Funcionalidades
+- Formulário para inserção de dados de contato (Nome, telefone, e-mail).
+
+• Tecnologias Utilizadas
+- HTML5
+- CSS3
 
 https://lucas-portfolio-contatos.netlify.app/
 
