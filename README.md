@@ -3,7 +3,7 @@
 Um mini-sistema web focado no gerenciamento de contatos.
 
 • Funcionalidades
-- Links para contatos (, Github, e-mail, Instagram).
+- Links para contatos (LinkedIn, Github, e-mail, Instagram).
 
 • Tecnologias Utilizadas
 - HTML5
